@@ -2,10 +2,15 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8">    
+    <meta charset="utf-8">
+    <script>
+      window.onload = function() {
+        var context = new AudioContext();
+      }
+      </script>
     <audio controls loop autoplay hidden>
       <source src="test.mp3" type="audio/mp3">
-  </audio>
+    </audio>
     <title>p</title>
     <!-- Google Font -->
     <link
@@ -58,6 +63,4 @@
           <h4>&copy Copyright, 2022</h4>
       </div>
   </footer>
-  
-
 </html>
